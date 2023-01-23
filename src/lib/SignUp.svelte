@@ -31,6 +31,7 @@
                     password: signUpData.password,
                     options: {
                         displayName: `${signUpData.firstName} ${signUpData.lastName}`,
+                        allowedRoles: ["user"],
 
                         // avatarUrl: `https://avatars.dicebear.com/api/croodles/${signUpData.firstName}${signUpData.lastName}.svg`,
                     },
