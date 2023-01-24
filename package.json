@@ -28,7 +28,6 @@
   },
   "dependencies": {
     "@apollo/client": "^3.6.10",
-    "@ckeditor/ckeditor5-build-decoupled-document": "^35.4.0",
     "@nhost/nhost-js": "^1.4.12",
     "carbon-icons-svelte": "^11.3.0",
     "graphql": "^16.6.0",

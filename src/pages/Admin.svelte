@@ -11,8 +11,8 @@
     import nhost from "./nhostConfig";
     import ArrowRight from "carbon-icons-svelte/lib/ArrowRight.svelte";
     import Add from "carbon-icons-svelte/lib/Add.svelte";
-    import "../../node_modules/@ckeditor/ckeditor5-build-decoupled-document/build/ckeditor";
-    import CloudUpload from "carbon-icons-svelte/lib/CloudUpload.svelte";
+
+    import "https://cdn.ckeditor.com/ckeditor5/35.4.0/decoupled-document/ckeditor.js";
 
     var editor;
     var toolbar_container;
@@ -37,6 +37,7 @@
                 console.error(error);
             });
     }
+
     // async function uploadImgToDB() {
     //     if (imageFile) {
     //         var file = imageFile;
