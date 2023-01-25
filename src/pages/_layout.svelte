@@ -31,6 +31,7 @@
     });
 
     onMount(() => {
+        isLoading = true;
         const query = gql`
             query {
                 categories(order_by: { id: asc }) {
@@ -59,6 +60,7 @@
             console.log(
                 `The auth state has changed. State is now ${event} with session: ${session}`
             );
+            isLoading = false;
         });
     });
 </script>
